@@ -1,38 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background-image: linear-gradient(rgb(171, 196, 209), rgb(45, 87, 102));
+  font-family: Inter;
+}
+
 .App {
-  text-align: center;
+  height: 100vh;
+  margin-top: 1.8rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+a:focus,
+a:visited {
+  color: rgb(9, 9, 32);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+/* ul,
+li {
+  padding: 9px 18px;
+} */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* .header-overlay {
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: transparent;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+} */
+
+.container,
+.container-header {
+  width: 81vw;
+  margin: auto;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+.flex-space-around {
+  justify-content: space-around;
+}
+
+.logo-text {
+  /* font-size: 36px; */
+  font-weight: bold;
+}
+
+.px-6 {
+  padding-left: 3rem;
+}
+
+li > a {
+  padding: 9px;
+  font-weight: 500;
+}
+
+.btn-blue {
+  padding: 9px 18px;
+  background-color: rgb(9, 9, 32);
+  border: 1px solid transparent;
+  border-radius: 9px;
+  box-shadow: 0px 1px 5px 1px;
+}
+
+.btn-text {
   color: white;
+  font-weight: bold;
+  font-size: 18px;
 }
 
-.App-link {
-  color: #61dafb;
+/* ::-webkit-scrollbar {
+  width: 9px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+/* Handle */
+/* ::-webkit-scrollbar-thumb {
+  background: #20393f;
+  border-radius: 18px;
+} */
+
+/* Handle on hover */
+/* ::-webkit-scrollbar-thumb:hover {
+  background: #00162a;
+}  */
