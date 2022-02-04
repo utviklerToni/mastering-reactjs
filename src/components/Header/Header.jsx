@@ -6,7 +6,7 @@ const Header = () => {
       <div className='d-flex flex-space-around'>
         <div className='d-flex left-sided-navigation'>
           <div className='logo-text d-flex'>
-            <h1>ferry&Fun</h1>
+            <h1>robotFarm</h1>
           </div>
           <ul className='d-flex px-6'>
             <li>

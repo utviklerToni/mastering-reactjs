@@ -1,4 +1,5 @@
 import React from 'react';
+import Card from '../card/Card';
 
 import './card-list.css';
 
@@ -7,7 +8,7 @@ const CardList = (props) => {
   return (
     <div className='card-list'>
       {props.monsters.map((monster) => (
-        <h1 key={monster.id}>{monster.name}</h1>
+        <Card key={monster.id} monster={monster} className='card-list' />
       ))}
     </div>
   );

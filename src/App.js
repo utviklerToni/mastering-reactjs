@@ -12,7 +12,6 @@ class App extends Component {
           <Header />
         </header>
         <main className='container'>
-          <HeroSection />
           <SessionReactBasic />
         </main>
       </div>

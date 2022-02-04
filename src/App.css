@@ -16,11 +16,10 @@ body {
 }
 
 .App {
-  height: 100vh;
   margin-top: 1.8rem;
+  margin-bottom: 2.7rem;
 }
 
-a:focus,
 a:visited {
   color: rgb(9, 9, 32);
 }
