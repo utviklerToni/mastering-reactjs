@@ -2,7 +2,7 @@
   "name": "mastering-reactjs",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://utviklerToni.github.io/mastering-reactjs ",
+  "homepage": "https://utviklertoni.github.io/mastering-reactjs ",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.2",
     "@testing-library/react": "^12.1.2",
