@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/mastering-reactjs/static/css/main.1c9aeb0f.css",
+    "main.js": "/mastering-reactjs/static/js/main.8cf19130.js",
+    "static/media/transportation _ ship, cruise.png": "/mastering-reactjs/static/media/transportation _ ship, cruise.2b52806744f0366f5672.png",
+    "index.html": "/mastering-reactjs/index.html",
+    "main.1c9aeb0f.css.map": "/mastering-reactjs/static/css/main.1c9aeb0f.css.map",
+    "main.8cf19130.js.map": "/mastering-reactjs/static/js/main.8cf19130.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c9aeb0f.css",
+    "static/js/main.8cf19130.js"
+  ]
+}
