@@ -33,14 +33,16 @@ class SearchBar extends Component {
 		);
 
 		return (
-			<div>
-				<h1 style={{ padding: '1rem' }}>Our Crew</h1>
-				<SearchBox
-					placeholder={'search bots'}
-					handleChange={this.handleChange}
-				/>
-				<CardList monsters={filteredMonsters} />
-			</div>
+			<main>
+				<div className='container'>
+					<h1 style={{ padding: '1rem' }}>Our Crew</h1>
+					<SearchBox
+						placeholder={'search bots'}
+						handleChange={this.handleChange}
+					/>
+					<CardList monsters={filteredMonsters} />
+				</div>
+			</main>
 		);
 	}
 }

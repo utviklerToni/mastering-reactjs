@@ -1,4 +1,9 @@
 .hero-text-container {
-  max-width: 60vw;
-  margin: auto;
+	max-width: 60vw;
+	margin: auto;
+}
+
+.d-flex-c {
+	display: flex;
+	justify-content: center;
 }

@@ -1,8 +1,10 @@
 import { Component } from 'react';
+import { Routes, Route } from 'react-router-dom';
 
 import './App.css';
 import Header from './components/Header/Header';
 import SearchBar from './components/Practice_section/components/SearchComponent/SearchBar';
+import HeroSection from './components/HeroSection/HeroSection';
 
 class App extends Component {
 	render() {
@@ -11,9 +13,10 @@ class App extends Component {
 				<header>
 					<Header />
 				</header>
-				<main className='container'>
-					<SearchBar />
-				</main>
+				<Routes>
+					<Route path='/' element={<HeroSection />} />
+					<Route path='/projects' element={<SearchBar />} />
+				</Routes>
 			</div>
 		);
 	}
